@@ -1,0 +1,108 @@
+.Card {
+  display: inline-block;
+  width: 450px;
+  height: 400px;
+  margin: 1.5rem;
+  overflow: hidden;
+  background: rgba(226, 101, 228, 0);
+  box-shadow: 0 0px 10px 0 rgba(194, 69, 34, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(214, 7, 7, 0.18);
+  border-radius: 1rem;
+  z-index: 10;
+  transition: background-color 0.2s, box-shadow 0.5s;
+}
+
+.Card:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.cardImg {
+  width: 550px;
+  height: 400px;
+  position: absolute;
+  transform: translateY(0px);
+  transform: translateX(0px);
+  z-index: 1;
+  opacity: 1;
+  box-shadow: 20px 20px 20px -19px black;
+  object-fit: fill;
+  transition: all 0.3s ease;
+}
+
+.nombre {
+  background-color: hsl(218, 11%, 14%);
+  color: hsl(220, 7%, 91%);
+  position: absolute;
+  z-index: 1;
+  opacity: 90%;
+  line-height: 1.6;
+  font-size: large;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 20px;
+  transform: translate(15%, 15px);
+  width: 75%;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+Link {
+  text-decoration: none;
+  color: inherit;
+  cursor: inherit;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transform: translateY(90px);
+  transition: all 0.5s ease;
+}
+
+.Card:hover > .cardImg {
+  transform: translateY(-450px);
+}
+
+.Card:hover > .nombre {
+  background-color: hsl(210, 68%, 64%);
+  opacity: 1;
+}
+
+.info-container {
+  font-family: "Poppins" sans-serif;
+  text-align: center;
+  color: hsl(210, 91%, 41%);
+  justify-content: center;
+}
+
+.info-container h2 {
+  color: #9a0f60;
+}
+
+.diet-title {
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+}
+
+.info-container button {
+  height: 40px;
+  width: 150px;
+  border: 0px;
+  margin-left: 15px;
+  border-radius: 8px;
+  background-color: hsl(341, 92%, 45%);
+  color: hsl(220, 7%, 91%);
+  margin-top: 15px;
+}
+
+.diet-names {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}

@@ -1,0 +1,22 @@
+.nav-container {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: transparent;
+  border-bottom: 5px solid hsl(136, 95%, 26%);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+
+.logo {
+  height: 150px;
+  margin-bottom: -24%;
+  margin-top: -20%;
+}
+
+.sb {
+  margin-left: auto;
+  margin-right: 50px;
+}

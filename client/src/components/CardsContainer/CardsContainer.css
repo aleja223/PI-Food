@@ -1,0 +1,48 @@
+.CardsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-organization {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+select {
+  align-self: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  background-color: hsl(218, 11%, 14%);
+  opacity: 1;
+  color: hsl(220, 7%, 91%);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+select:hover {
+  transform: scale(1.05);
+  color: #d957bd;
+}
+
+button {
+  align-self: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  height: 33px;
+  background-color: hsl(218, 11%, 14%);
+  opacity: 1;
+  color: hsl(220, 7%, 91%);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  color: #5782d9;
+}

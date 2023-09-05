@@ -1,0 +1,63 @@
+.landing {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url(https://www.gifss.com/alimentos/tomates/tomates.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 200px;
+  background-size: 550px 350px;
+}
+
+#ingresar {
+  border: 0px;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  transition: all 0.3s;
+  background-color: hsl(132, 43%, 44%);
+  color: rgb(49, 17, 138);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+.text {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 60px;
+}
+
+.link {
+  color: rgb(165, 35, 38);
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  transition: color 0.2s, font-size 0.2s, font-weight 0.2s;
+}
+
+.title {
+  color: hsl(125, 92%, 26%);
+}
+
+.subtitle {
+  color: #38ce1a;
+}
